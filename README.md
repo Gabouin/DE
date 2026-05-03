@@ -34,7 +34,6 @@
 - [Configuration](#configuration)
 - [Simulated Screens](#simulated-screens)
 - [Troubleshooting](#troubleshooting)
-- [Roadmap / Cool Ideas](#roadmap--cool-ideas)
 - [License](#license)
 - [Contributing](#contributing)
 
