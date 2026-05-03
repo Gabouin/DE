@@ -6,6 +6,7 @@ Thank you for your interest in contributing! Sentinel-Pico is a hobby project th
 
 ## Table of Contents
 
+- [What could be added](#what-could-be-added)
 - [How to Propose Changes](#how-to-propose-changes)
 - [Opening an Issue](#opening-an-issue)
 - [Creating a Pull Request](#creating-a-pull-request)
@@ -14,6 +15,21 @@ Thank you for your interest in contributing! Sentinel-Pico is a hobby project th
 - [Documenting Wiring Changes](#documenting-wiring-changes)
 
 ---
+
+## What could be added
+
+This project can still be improved a lot. Here are some ideas for future features:
+
+- **Wi-Fi dashboard** — push sensor data to a web page using the Pico W
+- **BLE notifications** — send a phone alert when lighting is too dim
+- **CO2 / air-quality sensor** — add an MH-Z19 or SGP30 for air quality monitoring
+- **Configurable thresholds** — read distance/light thresholds from a `config.json` on the filesystem
+- **Sleep / wake animation** — add a small animation when someone sits down
+- **Data logging** — write sensor readings to a CSV file on an SD card
+- **Multi-user greeting** — detect different users by RFID card
+
+---
+
 
 ## How to Propose Changes
 
