@@ -185,20 +185,6 @@ All tunable values are located at the top of [`deskstation.py`](deskstation.py):
 
 ---
 
-## Roadmap / Cool Ideas
-
-This project can still be improved a lot. Here are some ideas for future features:
-
-- **Wi-Fi dashboard** — push sensor data to a web page using the Pico W
-- **BLE notifications** — send a phone alert when lighting is too dim
-- **CO2 / air-quality sensor** — add an MH-Z19 or SGP30 for air quality monitoring
-- **Configurable thresholds** — read distance/light thresholds from a `config.json` on the filesystem
-- **Sleep / wake animation** — add a small animation when someone sits down
-- **Data logging** — write sensor readings to a CSV file on an SD card
-- **Multi-user greeting** — detect different users by RFID card
-
----
-
 ## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
