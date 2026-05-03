@@ -107,9 +107,10 @@ Loop:
 ## Repository Structure
 
 ```
-DE/
+SENTINEL-PICO/
 ├── deskstation.py     # Main application logic (MicroPython)
 ├── journal.md         # Dev log / Hack Club Lapse links
+├── desktop-station.zip # Wowki source file including libraries
 └── README.md
 ```
 
