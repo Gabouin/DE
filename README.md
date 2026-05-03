@@ -2,7 +2,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi%20Pico-red.svg)
 ![Language](https://img.shields.io/badge/Language-MicroPython-yellow.svg)
 
-# SMART DESKTOP STATION — Sentinel-Pico
+# SENTINEL PICO
 
 <table>
   <tr>
@@ -14,7 +14,7 @@
         An intelligent desk environment monitor built on the <strong>Raspberry Pi Pico</strong> and written in <strong>MicroPython</strong>.
         Sentinel-Pico uses a proximity sensor to detect whether someone is sitting at the desk, then reads
         temperature, humidity, and ambient light to display contextual information on a small OLED screen.
-        Try it online — no hardware required — on <a href="https://wokwi.com/projects/462996062362677249">Wokwi</a>.
+        Try it online on <a href="https://wokwi.com/projects/462996062362677249">Wokwi</a>.
       </p>
     </td>
   </tr>
@@ -55,7 +55,7 @@ alerts the user if the lighting is too dim for comfortable work.
 - **Ambient light** monitoring with a photoresistor (LDR)
 - **OLED display** driven by an SSD1306 over I2C
 - **Three distinct display modes** based on real-time sensor data
-- Fully simulated on **Wokwi** — no physical hardware needed to try it
+- Fully simulated on **Wokwi**, no physical hardware
 
 ---
 
@@ -136,7 +136,7 @@ Open the project directly on Wokwi:
    mpremote cp ssd1306.py :ssd1306.py
    ```
 4. Wire the components according to the [Wiring / Pinout](#wiring--pinout) section.
-5. Power up — the program starts automatically on boot.
+5. Power up : the program starts automatically on boot.
 
 ---
 
@@ -154,19 +154,21 @@ All tunable values are located at the top of [`deskstation.py`](deskstation.py):
 
 ## Simulated Screens
 
-**Full circuit on Wokwi**
 
-<img width="575" alt="Full circuit" src="https://github.com/user-attachments/assets/9fdb7b7b-884d-43d9-91e0-78f3baa4d8ae" />
 
 **No one detected** (distance > 50 cm)
 
 <img width="348" alt="Nobody detected" src="https://github.com/user-attachments/assets/0beb32c5-5ed1-4b3d-bb53-6972d76d873e" />
+<br>  
+<br>
 
 **Too dark** (ambient light < 100 lux)
 
 <img width="400" alt="Too dark warning" src="https://github.com/user-attachments/assets/853ad87c-a130-4f1b-a94d-df331c37ac9e" />
+<br>  
+<br>
 
-**Normal operation** — temperature & humidity displayed
+**Normal operation** (temperature & humidity displayed)
 
 <img width="353" alt="Normal display" src="https://github.com/user-attachments/assets/35e305e7-6ced-4507-97e7-5a496150a23f" />
 
