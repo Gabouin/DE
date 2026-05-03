@@ -1,6 +1,7 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi%20Pico-red.svg)
-![Language](https://img.shields.io/badge/Language-MicroPython-yellow.svg)
+![Project](https://img.shields.io/badge/Project-Hardware-yellow.svg)
+![Series](https://img.shields.io/badge/Series-Special_Issue-red.svg)
+![Language](https://img.shields.io/badge/Language-MicroPython-green.svg)
 
 # SENTINEL PICO
 
