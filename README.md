@@ -8,7 +8,7 @@
 <table>
   <tr>
     <td width="60%">
-      <img width="100%" alt="Full circuit on Wokwi" src="https://github.com/user-attachments/assets/9fdb7b7b-884d-43d9-91e0-78f3baa4d8ae" />
+      <img width="50% alt="sentinelgiffr" src="https://github.com/user-attachments/assets/32d5039a-2938-4446-9a50-17d5c512e57e" />
     </td>
     <td>
       <p>
@@ -20,6 +20,9 @@
     </td>
   </tr>
 </table>
+
+
+
 
 ---
 
